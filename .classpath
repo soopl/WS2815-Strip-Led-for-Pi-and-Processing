@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="bin" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="ws281x_strip_led_for_pi/" kind="src" output="bin" path="src"/>
+	<classpathentry kind="src" path="library"/>
+	<classpathentry exported="true" kind="lib" path="src/core.jar"/>
 	<classpathentry kind="output" path="resources/code"/>
 </classpath>
